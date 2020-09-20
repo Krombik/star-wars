@@ -13,6 +13,7 @@ export const HeaderWrapper = styled(Grid)`
   position: absolute;
   z-index: 5;
   padding: ${({ theme }: ThemeProps) => theme.spacing(2)}px;
+  color: ${({ theme }: ThemeProps) => theme.palette.common.white};
   transition: ${({ theme }: ThemeProps) => theme.transitions.create("opacity")};
   opacity: 0;
 `;
